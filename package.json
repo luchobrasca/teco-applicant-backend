@@ -1,0 +1,31 @@
+{
+  "name": "teco-applicant-backend",
+  "version": "1.0.0",
+  "description": "Developer Applicant backend test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/weather.test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luchobrasca/teco-applicant-backend.git"
+  },
+  "author": "lbrasca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luchobrasca/teco-applicant-backend/issues"
+  },
+  "homepage": "https://github.com/luchobrasca/teco-applicant-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.0.2",
+    "node-fetch": "^2.6.1",
+    "public-ip": "^4.0.4",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
+}
